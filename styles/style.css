@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  max-width: 1200px;
+}
+header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.header-container {
+  display: flex;
+  width: 100%;
+}
+.logo-header {
+  color: #111;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  text-decoration: none;
+  margin-right: 413px;
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+}
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+}
+.header-nav-list-item-link {
+  color: #111;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.28px;
+}
+.header-media-links-list {
+  display: flex;
+  gap: 14px;
+}
