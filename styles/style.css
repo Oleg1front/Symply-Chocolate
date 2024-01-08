@@ -18,14 +18,18 @@ a {
 
 body {
   background-color: white;
-  max-width: 1200px;
+  padding: 0 32px;
 }
 header {
   padding-top: 24px;
   padding-bottom: 32px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
+h1{
+  display: none;
+}
+
+
+/* HEADER SECTION */
 .header-container {
   display: flex;
   width: 100%;
@@ -48,6 +52,7 @@ header {
 .header-nav-list {
   display: flex;
   gap: 24px;
+  margin-right: 90px;
 }
 .header-nav-list-item-link {
   color: #111;
@@ -61,4 +66,48 @@ header {
 .header-media-links-list {
   display: flex;
   gap: 14px;
+}
+
+
+/* HEADER SECTION END */
+
+
+/* HERO SECTION */
+
+.hero-section{ 
+  max-width: 1136px;
+  height: 600px;
+  margin-bottom: 80px;
+  
+}
+.hero-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(<path-to-image>), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+    background-image: url(../img/chocolate_main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hero-text{
+  color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.84px;
+    max-width: 484px;
+    max-height: 102px;
+    margin-bottom: 32px;
+}
+.hero-btns {
+  padding: 0 40px 40px 40px;
+  display: flex;
+}
+.left-btns{
+  margin-right: 585px;
 }
