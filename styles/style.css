@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   font-family: Montserrat, sans-serif;
+  font-style: normal;
+
 }
 img {
   display: block;
@@ -248,4 +250,38 @@ background: rgba(255, 255, 255, 0.50);
     line-height: 1.28;
     /* 128.571% */
     letter-spacing: -0.28px;
+}
+
+
+
+/* --------------INGRIDIENTS--------------- */
+
+.ingridients-section{
+  padding: 0 32px;
+}
+.ingridients-header{
+  padding-top: 120px;
+  color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.ingridients-list{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  column-gap: 24px;
+}
+
+.ingridients-list-item{
+  width: calc((100% - 96px) / 4 );
+  border-radius: 15px;
+}
+.ingridients-list-item:nth-child(5n + 1){
+  background-color: #FD9222;
 }
