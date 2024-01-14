@@ -17,12 +17,11 @@ ul {
 a {
   text-decoration: none;
 }
-
 body {
   background-color: white;
   scroll-behavior: smooth;
   background-color: #FAFAFA;
-
+  max-width: 1200px;
 }
 header {
   padding-top: 24px;
@@ -97,7 +96,7 @@ padding: 0 32px;
 .hero-section{ 
 padding: 0 32px;
   height: 600px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   background-color: #FFF;
   
 }
@@ -265,7 +264,7 @@ background: rgba(255, 255, 255, 0.50);
 .ingridients-section{
   padding: 0 32px;
   background-color: #FAFAFA;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   width: 100%;
 }
 .ingridients-header{
@@ -384,6 +383,8 @@ background: rgba(255, 255, 255, 0.50);
 .how-made-text{
   max-width: 516px;
   padding: 32px;
+  background-color: white;
+  border-radius: 15px;
 }
 .how-made-right-header{
   color: #111;
