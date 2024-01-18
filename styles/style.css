@@ -46,7 +46,6 @@ button{
 .header-container {
   display: flex;
 justify-content: space-between;
-padding: 0 32px;
 }
 .logo-header {
   color: #111;
@@ -100,15 +99,14 @@ padding: 0 32px;
 /* HERO SECTION */
 
 .hero-section{ 
-padding: 0 32px;
   height: 600px;
   padding-bottom: 80px;
   background-color: #FFF;
+  padding-left: 15px;
+  padding-right: 15px;
   
 }
 .hero-container{
-  padding-left: 40px;
-  padding-right: 40px;
   background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(<path-to-image>), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
     background-image: url(../img/chocolate_main.jpg);
     background-position: center;
@@ -119,6 +117,7 @@ padding: 0 32px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    overflow: hidden;
 }
 .hero-text{
   color: #FFF;
